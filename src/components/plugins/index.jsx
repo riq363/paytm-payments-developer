@@ -28,6 +28,17 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
+                <a href='https://www.ecwid.com/apps/paymentgateways/paytm' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                    <span className={`grid justify-between align-center`}>
+                        <img src='/assets/Ecwid-logo.svg' alt=''/>
+                        <label>Ecwid</label>
+                    </span>
+                    <span className={`grid justify-between align-center`}>
+                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                    </span>
+                </a>
+            </div>
+            <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm-NopCommerce' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-nopcommerce.png' alt=''/>
